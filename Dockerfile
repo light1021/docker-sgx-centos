@@ -23,8 +23,4 @@ RUN yum -y install vim git wget openssl-devel libcurl-devel protobuf-devel ocaml
     /tmp/linux-sgx/linux/installer/bin/sgx_linux_x64_psw_*.bin && \
     rm -rf /tmp/linux-sgx
 
-COPY ./etc /etc
-
-COPY /opt/intel/sgxssl /opt/intel/
-
 CMD [/usr/bin/bash]
