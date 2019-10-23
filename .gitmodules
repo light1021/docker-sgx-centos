@@ -1,0 +1,3 @@
+[submodule "docker-sgx"]
+	path = docker-sgx
+	url = https://github.com/tozd/docker-sgx.git
