@@ -1,6 +1,6 @@
 FROM centos:7.4.1708
 
-COPY ./patches /patches
+COPY ./docker-sgx/patches /patches
 
 RUN yum -y install vim git wget openssl-devel libcurl-devel protobuf-devel ocaml ocaml-ocamlbuild python2 && \
     wget https://cmake.org/files/v3.16/cmake-3.16.0-rc2-Linux-x86_64.sh && \
