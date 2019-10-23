@@ -1,3 +1,0 @@
-#!/bin/bash -e
-
-exec chpst -u aesmd:aesmd /opt/intel/sgxpsw/aesm/aesm_service --no-daemon 2>&1
